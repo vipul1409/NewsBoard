@@ -1,0 +1,1 @@
+json.extract! @hacker_news, :id, :heading, :link

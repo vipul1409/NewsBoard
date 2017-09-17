@@ -26,3 +26,24 @@ Quote.create! (
   ]
 )
 puts "Quotes seeded!"
+
+HackerNews.delete_all
+
+HackerNews.create! (
+  [
+      {
+        heading: "Bing",
+        link: "https://www.bing.com/"
+      }, 
+      {
+        heading: "Bing2",
+        link: "https://www.bing.com/"
+      },
+      {
+        heading: "Bing3",
+        link: "https://www.bing.com/"
+      }
+  ]
+)
+
+puts "HackerNews seeded!"
